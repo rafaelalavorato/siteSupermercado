@@ -1,0 +1,32 @@
+.container {
+    box-sizing: border-box;
+    max-width: 1400px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.botao {
+    display: inline-block;
+    padding: 16px 32px;
+    background: var(--c2);
+    border-radius: 4px;
+    box-shadow: 0 1px 2px var(--c6);
+    text-transform: uppercase;
+    color: #332200;
+    font-size: 15px;
+    line-height: 1.33;
+    font-weight: bold;
+}
+
+.botao:hover {
+    background: var(--c7);
+}
+
+@media (max-width: 600px) {
+    .botao {
+        padding: 10px 14px;
+        font-size: 12px;
+    }
+}

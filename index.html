@@ -7,13 +7,18 @@
     <meta name="description" content="Qualidade, variedade e economia em um só lugar. Aqui, você encontra os melhores produtos para o seu dia a dia, 
     sempre com preços justos e um atendimento de excelência.">
     <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <header class="header-bg">
-        <div class="header">
+        <div class="header container">
             <a href="./"><img src="./img/logo2.svg" alt="Lavorato"></a>
           <nav aria-label="primaria">
-            <ul class="header-menu">
+            <ul class="header-menu c0 texto-basico">
                 <li><a href="./sobre.html">Sobre Nós</a></li>
                 <li><a href="./produtos.html">Nossos Produtos</a></li>
                 <li><a href="./ofertas.html">Ofertas da Semana</a></li>
@@ -22,6 +27,110 @@
           </nav>
         </div>
     </header>
+
+    <main class="introducao-bg">
+        <div class="introducao container">
+            <div class="introducao-conteudo">
+                <h1 class="titulo-grande c0">Bem-vindo ao Supermercados Lavorato!</h1>
+                <p class="texto-medio c1">Qualidade, variedade e economia em um só lugar. Aqui, você encontra os melhores produtos para o seu dia a dia, 
+                sempre com preços justos e um atendimento de excelência.</p>
+                <a class="botao" href="./produtos.html">Nossos produtos</a>
+            </div>
+            <img src="./img/image_.png" alt="Capa">
+        </div>
+    </main>
+
+    <section class="produtos-lista">
+        <h2 class="container titulo-grande">Nossos produtos</h2>
+
+        <ul>
+            <li>
+                <a href="./produtos/mercearia.html">
+                    <img src="./img/produtos.png" alt="Mercearia">
+                    <h3 class="texto-basico c2">Mercearia</h3>
+                    <span>Tudo o que você precisa para abastecer sua casa.</span>
+                </a>
+            </li>
+            <li>
+                <a href="./produtos/hortifruti.html">
+                    <img src="./img/hortifruti.png" alt="HortiFruti">
+                    <h3 class="texto-basico c2">HortiFruti</h3>
+                    <span>Frutas e verduras sempre frescas para a sua mesa.</span>
+                </a>
+            </li>
+            <li>
+                <a href="./produtos/acougue.html">
+                    <img src="./img/acougue.png" alt="Açougue">
+                    <h3 class="texto-basico c2">Açougue</h3>
+                    <span>Carnes selecionadas com o melhor corte e procedência</span>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="blog-bg">
+        <div class="blog container">
+            <div class="blog-conteudo">
+                <span class="texto-medio2 c1">Receitas e Dicas</span>
+                <h2 class="titulo-grande c0">Inspire-se na cozinha!</h2>
+                <p class="texto-basico c1">Descubra receitas deliciosas com ingredientes que você encontra aqui:</p>
+                <a class="link" href="/sobre.html">Receitas</a>
+                <div class="blog-coluna">
+                    <div>
+                        <h3 class="texto-descricao c1">
+                            <i class="fa-solid fa-pizza-slice" style="color: var(--c2);"></i> 
+                            <strong>Pizza Caseira de Liquidificador</strong>
+                        </h3>
+                        <p class="texto-detalhe c1">Prática e saborosa! Veja como fazer essa delícia com poucos ingredientes.</p>
+                    </div>
+                    <div>
+                        <h3 class="texto-descricao c1">
+                            <i class="fa-solid fa-seedling" style="color: var(--c2);"></i> 
+                            <strong>Salada Detox com Frutas</strong>
+                        </h3>
+                        <p class="texto-detalhe c1">Leve e refrescante, perfeita para quem busca uma alimentação saudável.</p>
+                    </div>
+                    <div>
+                        <h3 class="texto-descricao c1">
+                            <i class="fa-solid fa-cake-candles" style="color: var(--c2);"></i> 
+                            <strong>Bolo de Chocolate Cremoso</strong> 
+                        </h3>
+                        <p class="texto-detalhe c1">Perfeito para qualquer ocasião.</p>
+                   </div> 
+                    <div>
+                        <h3 class="texto-descricao c1">
+                            <i class="fa-solid fa-drumstick-bite" style="color: var(--c2);"></i> 
+                            <strong>Sobrecoxa assada com purê</strong>
+                        </h3>
+                        <p class="texto-detalhe c1">Dicas para um frango perfeito.</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="blog-imagem">
+                <img src="./img/blog.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="depoimento">
+        <div>
+            <img src="./img/feedback.png" alt="Estrelas de avaliação">
+        </div>
+        <div class="depoimento-conteudo">
+            <h2 class="titulo-grande2 c4">Veja o que nossos clientes dizem sobre nós!</h2>
+            <blockquote>
+                <p>⭐ <strong>Ana S.</strong> – “Sempre encontro tudo o que preciso, e os preços são ótimos!”</p>
+            </blockquote>
+    
+            <blockquote>
+                <p>⭐ <strong>Carlos M.</strong> – “Adoro o atendimento do açougue, carne de primeira!”</p>
+            </blockquote>
+    
+            <blockquote>
+                <p>⭐ <strong>Fernanda R.</strong> – “A entrega é super rápida, muito prático fazer compras online.”</p>
+            </blockquote>
+        </div>
+    </section>
 
 </body>
 

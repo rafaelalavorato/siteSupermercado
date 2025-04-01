@@ -1,0 +1,70 @@
+.titulo-grande {
+    font: 600 55px/1.125 "Poppins";
+}
+
+.titulo-grande2 {
+    font: 600 40px/1.125 "Poppins";
+}
+
+.texto-medio {
+    font: 400 22px/1.5 "Roboto";
+}
+
+.texto-medio2 {
+    font: 400 22px/1.5 "Roboto";
+}
+
+.texto-basico {
+    font: 400 20px/1.5 "Poppins";
+
+}
+.texto-descricao {
+    font: 400 18px/1.5 "Poppins";
+}
+
+.texto-detalhe {
+    font: 400 16px/1.35 "Roboto";
+}
+
+:root {
+    --c0: #ffffff;
+    --c1: #b2b2b2;
+    --c2: rgb(255, 54, 121);
+    --c3: #2e2e2e;
+    --c4: #111111;
+    --c5: #000000;
+    --c6: rgba(0, 0, 0, 0.1);
+    --c7: rgb(255, 0, 128);
+}
+.c0 {
+    color: var(--c0)
+}
+
+.c1 {
+    color: var(--c1)
+}
+
+.c2 {
+    color: var(--c2);
+}
+
+.c3 {
+    color: var(--c3);
+}
+
+.c4 {
+    color: var(--c4);
+}
+
+.c5 {
+    color: var(--c5);
+}
+
+.c6 {
+    color: var(--c6);
+}
+
+.c7 {
+    color: var(--c7);
+}
+
