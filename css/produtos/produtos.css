@@ -1,0 +1,48 @@
+.produtos-bg:nth-child(even) {
+    background: linear-gradient(to right, var(--c0) 30%, var(--c5) 0%);
+}
+
+.produtos-bg {
+    padding: 40px 0;
+}
+.produtos {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.tituloh2 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--c5);
+    margin-top: 40px;
+    font: 600 40px/1.125 "Poppins";
+}
+
+.produtos-imagem img {
+    width: 600px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.produtos-conteudo {
+    flex: 1;
+    padding: 40px;
+    font-size: 25px;
+}
+
+.produtos h2::before {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 8px;
+    background-color: var(--c2);
+}
+
+.produtos p {
+    margin-bottom: 32px;
+}

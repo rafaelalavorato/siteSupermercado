@@ -7,6 +7,12 @@
     margin-right: auto;
 }
 
+.titulo-bg {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--c5);
+}
+
 .botao {
     display: inline-block;
     padding: 16px 32px;
@@ -26,6 +32,11 @@
 }
 
 @media (max-width: 600px) {
+    .titulo-bg h1 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        font-size: 40px;
+    }
     .botao {
         padding: 10px 14px;
         font-size: 12px;

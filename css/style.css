@@ -9,6 +9,9 @@
 @import url(./home/blog.css);
 
 @import url(./produtos/lista-produtos.css);
+@import url(./produtos/produtos.css);
 @import url(./servicos/servicos.css);
 
 @import url(./global/footer.css);
+
+@import url(./sobre/sobre.css);
