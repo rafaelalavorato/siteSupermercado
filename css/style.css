@@ -1,8 +1,14 @@
 @import url(./global/global.css);
 @import url(./utilidades/estilo.css);
+@import url(./utilidades/componentes.css);
+
 @import url(./global/header.css);
 @import url(./home/introducao.css);
-@import url(./utilidades/componentes.css);
-@import url(./produtos/lista-produtos.css);
-@import url(./home/blog.css);
+@import url(./home/ofertas.css);
 @import url(./home/depoimento.css);
+@import url(./home/blog.css);
+
+@import url(./produtos/lista-produtos.css);
+@import url(./servicos/servicos.css);
+
+@import url(./global/footer.css);

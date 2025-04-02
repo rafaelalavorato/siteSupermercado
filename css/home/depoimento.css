@@ -1,20 +1,16 @@
 .depoimento {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: var(--c1);
+    grid-template-areas: "texto imagem";
+    background-color: var(--c0);
     overflow: hidden;
 }
-
-/* .depoimento::after {
-    content: "";
-    display: block;
-    height: 40px; /* Ajuste o valor conforme necessário 
-    }*/
 
 .depoimento img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    grid-area: imagem;
 }
 
 .depoimento-conteudo {
@@ -36,7 +32,7 @@
     margin-bottom: 40px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     .depoimento {
         grid-template-columns: 1fr;
         text-align: center;
@@ -44,5 +40,11 @@
     .depoimento-conteudo {
         padding: 40px 20px;
         margin: auto;
+    }
+    .depoimento-conteudo h2 {
+        font-size: 30px;
+    }
+    .depoimento-conteudo p {
+        font-size: 16px;
     }
 }

@@ -1,6 +1,6 @@
 .produtos-lista {
     padding-top: 60px;
-    padding-bottom: 120px;
+    padding-bottom: 60px;
 }
 
 .produtos-lista h2 {
@@ -62,8 +62,10 @@
     .produtos-lista {
         padding-bottom: 60px;
     }
+    .produtos-lista h2 {
+        font-size: 32px;
+    }
     .produtos-lista ul {
         gap: 20px;
     }
 }
-
