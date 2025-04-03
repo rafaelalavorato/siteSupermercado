@@ -51,7 +51,6 @@
 
 .produtos-lista a:hover h3::before {
     width: 24px;
-
 }
 
 .produtos-lista li span {

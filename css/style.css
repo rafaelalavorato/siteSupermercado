@@ -8,10 +8,13 @@
 @import url(./home/depoimento.css);
 @import url(./home/blog.css);
 
+@import url(./sobre/sobre.css);
 @import url(./produtos/lista-produtos.css);
 @import url(./produtos/produtos.css);
 @import url(./servicos/servicos.css);
+@import url(./servicos/nossos-servicos.css);
+@import url(./home/nossasofertas.css);
+@import url(./sobre/conectar.css);
+
 
 @import url(./global/footer.css);
-
-@import url(./sobre/sobre.css);

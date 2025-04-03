@@ -4,11 +4,14 @@
     grid-template-areas: "texto imagem";
     background-color: var(--c0);
     overflow: hidden;
+    max-width: 1500px;
+    margin: auto;
 }
 
 .depoimento img {
     width: 100%;
-    height: 100%;
+    max-height: 100vh;
+    height: auto;
     object-fit: cover;
     grid-area: imagem;
 }
@@ -35,11 +38,16 @@
 @media (max-width: 1000px) {
     .depoimento {
         grid-template-columns: 1fr;
+        grid-template-areas: "texto" "imagem";
         text-align: center;
+    }
+    .depoimento img {
+        display: none;
     }
     .depoimento-conteudo {
         padding: 40px 20px;
         margin: auto;
+        padding-top: 0px;
     }
     .depoimento-conteudo h2 {
         font-size: 30px;

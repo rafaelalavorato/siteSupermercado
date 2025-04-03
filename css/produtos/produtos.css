@@ -46,3 +46,25 @@
 .produtos p {
     margin-bottom: 32px;
 }
+
+@media (max-width: 800px) {
+    .produtos-bg:nth-child(even) {
+        background: linear-gradient(to right, var(--c0) 0%, var(--c5) 0%);
+    }
+    .produtos {
+        flex-direction: column; 
+        text-align: center; 
+        gap: 20px;
+    }
+
+    .produtos-imagem img {
+        width: 100%; 
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .produtos-conteudo {
+        padding: 20px;
+        font-size: 20px;
+    }
+}

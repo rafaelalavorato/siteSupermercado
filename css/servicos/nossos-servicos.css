@@ -1,0 +1,98 @@
+.nossos-servicos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.nossos-servico {
+    background: var(--c1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.nossos-servico:hover {
+    transform: translateY(-10px);
+}
+
+.nossos-servico img {
+    width: 100px;
+    height: 70px;
+    margin-bottom: 15px;
+    object-fit: contain;
+}
+
+.nossos-servico h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #d92332;
+}
+
+.nossos-servico p {
+    font-size: 1.1rem;
+    color: var(--c3);
+}
+
+.beneficios {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.beneficios h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.beneficios ul {
+    list-style: none;
+    padding: 0;
+}
+
+.beneficios li {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.faq {
+    max-width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.faq h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.faq-item {
+    background: #e6e3e3;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.faq-item:hover {
+    transform: translateY(-10px);
+}
+
+.faq-item h3 {
+    font-size: 1.2rem;
+    color: #d92332;
+    margin-bottom: 10px;
+}
+
+.faq-item p {
+    font-size: 1.0rem;
+    color: #3d3d3d;
+}

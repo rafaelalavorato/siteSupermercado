@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width", initial-scale="1.0">
-    <title>Supermercados Lavorato</title>
+    <title>Conecte-se | Supermercados Lavorato</title>
     <meta name="description" content="Qualidade, variedade e economia em um só lugar. Aqui, você encontra os melhores produtos para o seu dia a dia, 
     sempre com preços justos e um atendimento de excelência.">
     <link rel="stylesheet" href="./css/style.css">
@@ -16,7 +16,7 @@
 <body>
     <header class="header-bg">
         <div class="header container">
-            <a href="./"><img src="./img/logo2.svg" alt="Lavorato"></a>
+            <a href="./index.html"><img src="./img/logo2.svg" alt="Lavorato"></a>
           <nav aria-label="primaria">
             <ul class="header-menu c0 texto-basico">
                 <li><a href="./sobre.html">Sobre Nós</a></li>
@@ -30,6 +30,78 @@
     </header>
 
 
+    <main>
+        <div class="titulo-bg">
+            <div class="titulo container">
+                <h1 class="titulo-grande c0">Conecte-se<span class="c2">.</span></h1>
+            </div>
+        </div>
+
+        <section class="blog-bg">
+        <div class="blog container">
+            <div class="blog-conteudo">
+                <span class="texto-medio2 c1">Receitas e Dicas</span>
+                <h2 class="titulo-grande c3">Inspire-se na cozinha!</h2>
+                <p class="texto-basico c3">Descubra receitas deliciosas com ingredientes que você encontra aqui:</p>
+                <a class="link" href="/sobre.html">Receitas</a>
+                <div class="blog-coluna">
+                    <div>
+                        <h3 class="texto-descricao c1">
+                            <i class="fa-solid fa-pizza-slice" style="color: var(--c2);"></i> 
+                            <strong>Pizza Caseira de Liquidificador</strong>
+                        </h3>
+                        <p class="texto-detalhe c1">Prática e saborosa! Veja como fazer essa delícia com poucos ingredientes.</p>
+                    </div>
+                    <div>
+                        <h3 class="texto-descricao c1">
+                            <i class="fa-solid fa-seedling" style="color: var(--c2);"></i> 
+                            <strong>Salada Detox com Frutas</strong>
+                        </h3>
+                        <p class="texto-detalhe c1">Leve e refrescante, perfeita para quem busca uma alimentação saudável.</p>
+                    </div>
+                    <div>
+                        <h3 class="texto-descricao c1">
+                            <i class="fa-solid fa-cake-candles" style="color: var(--c2);"></i> 
+                            <strong>Bolo de Chocolate Cremoso</strong> 
+                        </h3>
+                        <p class="texto-detalhe c1">Perfeito para qualquer ocasião.</p>
+                   </div> 
+                    <div>
+                        <h3 class="texto-descricao c1">
+                            <i class="fa-solid fa-drumstick-bite" style="color: var(--c2);"></i> 
+                            <strong>Sobrecoxa assada com purê</strong>
+                        </h3>
+                        <p class="texto-detalhe c1">Dicas para um frango perfeito.</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="blog-imagem">
+                <img src="./img/blog.jpg" alt="">
+            </div>
+        </div>
+        </section>
+
+        <section class="conecte-se">
+            <h2 class="texto-medio3" style="font-weight: bold;">💼 Trabalhe Conosco</h2>
+            <p class="texto-basico">Preencha o formulário abaixo e envie seu currículo para nossa equipe.</p>
+
+            <form action="enviar_formulario.php" method="post">
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>    
+    </main>
 
     <footer class="footer-bg">
         <div class="footer container">
