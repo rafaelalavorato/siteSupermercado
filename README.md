@@ -35,5 +35,5 @@ git clone https://github.com/seu-usuario/supermercados-lavorato.git
 ---
 
 ## 📷 **Imagens do Projeto** 
-![Print do Site](img/print.png)
+![Print do Site](./img/print.png)
 
